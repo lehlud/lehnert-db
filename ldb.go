@@ -1,7 +1,5 @@
 package ldb
 
-import "fmt"
-
 type App struct {
 	Migrations      map[string]*Migration
 	DatabaseService *DatabaseService
@@ -14,7 +12,7 @@ type Migration struct {
 }
 
 type DatabaseService interface {
-	CreateCollection(name string, schema CollectionSchema) error
+	CreateCollection(schema CollectionSchema) error
 	DropCollection(name string) error
 }
 

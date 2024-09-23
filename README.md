@@ -1,6 +1,6 @@
 # LDB (lehnert-db) Framework
 
-SQLite3 DBMS wrapper as-a-library inspired by [pocketbase](https://pocketbase.io/).
+[DuckDB](https://duckdb.org/) DBMS wrapper as-a-library inspired by [pocketbase](https://pocketbase.io/).
 
 ## Key Features
 
